@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-    <title>Triangulated</title>
+    <title>Angles</title>
 </head>
 <body>
     <nav class="navigation">
-        <h3>Triangulated</h3>
+        <h3>Triangulated!</h3>
         <ul class="nav-ul">
             <li class="nav-li"><a href="./quiz/quiz-one.html">Quiz 1</a></li>
             <li class="nav-li"><a href="./quiz/quiz-two.html">Quiz 2</a></li>
@@ -19,26 +20,29 @@
             <li class="nav-li"><a href="./quiz/quiz-four.html">Quiz 4</a></li>
         </ul>
     </nav>
+
     <div class="primary-container">
         <header class="hero">
-            <h1>Welcome to <span>Triangulated!</span></h1>
-            <p>Please choose from one of the four options below</p>
+            <h1><span>Angles!</span></h1>
+            <p>Input three angles to check if they make a triangle.</p>
         </header>
 
         <div class="secondary-container">
-            
-            <div class="secondary-grid">
-                <div class="grid-item"><a href="./quiz/quiz-one.html">Quiz 1</a></div>
-                <div class="grid-item"><a href="./quiz/quiz-two.html">Quiz 2</a></div>
-            </div>
+            <div class="secondary-form">
+                <form class="form">
+                    <label for="angle-a">Angle a: </label>
+                    <input type="number" id="angle-a" class="angle-input"/>
 
-            <div class="secondary-grid">
-                <div class="grid-item"><a href="./quiz/quiz-three.html">Quiz 3</a></div>
-                <div class="grid-item"><a href="./quiz/quiz-four.html">Quiz 4</a></div>
+                    <label for="angle-b">Angle b: </label>
+                    <input type="number" id="angle-b" class="angle-input"/>
+
+                    <label for="angle-c">Angle c: </label>
+                    <input type="number" id="angle-c" class="angle-input"/>
+                </form>
+                <button class="btn-submit" type="submit">Check</button>
+                <div class="output"></div>
             </div>
-        
         </div>
-
     </div>
 
     <footer class="footer">
@@ -63,5 +67,6 @@
         <p id="footer-cc-text"><i class="far fa-copyright"></i> | 2021 Rights reserved</p>
     </footer>
 
+    <script type="text/javascript" src="quiz-one.js"> </script>
 </body>
 </html>

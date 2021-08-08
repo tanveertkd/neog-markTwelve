@@ -37,6 +37,12 @@ body {
 
 .nav-li a {
     text-decoration: none;
+    color: var(--primary-button-color);
+}
+
+.nav-li a:after{
+    color: var(--primary-button-color);
+    text-decoration: none;
 }
 
 .primary-container {
@@ -52,6 +58,10 @@ body {
 
 .hero span {
     color: var(--primary-button-color);
+}
+
+.hero p {
+    margin: 0.5rem auto;
 }
 
 .secondary-container {
@@ -118,4 +128,37 @@ body {
 #footer-cc-text {
     display: block;
     margin: 0.5rem auto;
+}
+
+/* Quiz 1 */
+.form {
+    margin: 1rem auto;
+}
+
+.angle-input {
+    margin: auto 1rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+    box-shadow: 0pt 0pt 5pt var(--primary-shadow-color);
+}
+
+.btn-submit {
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 0.25rem auto;
+    color: var(--primary-bg-color);
+    background-color: var(--primary-button-color);
+    box-shadow: 0pt 0pt 5pt var(--primary-shadow-color);
+}
+
+.output {
+    display: block;
+    width: 20%;
+    margin: 1rem auto;
+    padding: 1rem 5rem 1rem 5rem;
+    background-color: var(--primary-button-color);
+    color: var(--primary-bg-color);
+    text-align: center;
 }
