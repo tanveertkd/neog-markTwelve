@@ -165,4 +165,13 @@ body {
     background-color: var(--primary-button-color);
     color: var(--primary-bg-color);
     text-align: center;
+    border-radius: 0.5rem;
+}
+
+/* Quiz 2 */
+
+.quiz-two-form {
+    display: block;
+    margin: 1rem auto;
+
 }
