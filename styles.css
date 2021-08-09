@@ -147,6 +147,11 @@ body {
     box-shadow: 0pt 0pt 5pt var(--primary-shadow-color);
 }
 
+.form-item {
+    display: block;
+    margin: 1rem auto;
+}
+
 .btn-submit {
     padding: 0.5rem 5rem 0.5rem 5rem;
     border: none;
@@ -166,12 +171,4 @@ body {
     color: var(--primary-bg-color);
     text-align: center;
     border-radius: 0.5rem;
-}
-
-/* Quiz 2 */
-
-.quiz-two-form {
-    display: block;
-    margin: 1rem auto;
-
 }
