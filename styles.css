@@ -26,6 +26,10 @@ body {
     float: left;
 }
 
+.navigation a {
+    text-decoration: none;
+}
+
 .nav-ul {
     list-style: none;
     text-align: right;
