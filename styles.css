@@ -29,6 +29,7 @@ body {
 
 .navigation a {
     text-decoration: none;
+    color: var(--primary-bg-color);
 }
 
 .nav-ul {
